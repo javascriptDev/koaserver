@@ -1,0 +1,25 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "a fe framework",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-ejs": "^3.0.0",
+    "koa-favicon": "^1.2.1",
+    "koa-file-server": "^2.3.1",
+    "koa-log4js": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www.js &"
+  },
+  "keywords": [
+    "fe",
+    "nodejs"
+  ],
+  "author": "addison",
+  "license": "MIT"
+}
